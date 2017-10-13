@@ -1,0 +1,21 @@
+Value of the variable: 1	
+Value of the variable: 2	
+Value of the variable: 3	
+Value of Case 2 : 5
+Value: 3
+value of the loop: 1
+Value: 3
+value of the loop: 2
+Value: 3
+value of the loop: 3
+Value: 3
+value of the loop: 4
+
+value of exp in IF: 3
+value of exp in ELSE: 13
+Value of the variable: 5	
+value of exp in IF: 98
+Value of the variable: 8	
+Value of the variable: 1	
+Value of the variable: 0	
+Value of the variable: 6	

@@ -1,0 +1,44 @@
+void main LFB RFB
+LSB
+int a cm b cm c sm
+a equ 1 sm
+b equ 2 sm
+c equ 3 sm
+
+switch LFB b RFB
+	LSB
+	case 1 :
+		a dosum b sm break sm
+	
+	case 2 :
+		b dosum c sm break sm
+	
+	case 3 : 
+		a dosum c sm break sm
+	RSB
+	
+
+FLoop LFB 1 till 5 RFB
+LSB
+1 dosum 2 sm
+RSB
+
+IFC LFB 2 GreaterT 1 RFB
+1 dosum 2 sm
+IFC LFB 3 dosub 3 RFB
+1 dosum 2 sm
+ELC
+1 dosum 2 dosum 5 domul 2 sm
+
+a equ 5 sm
+IFC LFB a LessT 10 RFB
+b equ 100 sm
+ELC 
+b equ a sm
+
+c equ 2 dopower 3 sm
+c equ sin LFB 90 RFB sm
+c equ cos LFB 90 RFB sm
+d equ fact LFB 3 RFB sm
+
+RSB
